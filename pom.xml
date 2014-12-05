@@ -70,6 +70,7 @@
    		<configuration>
       			<url>http://localhost:8080/manager/text</url>
 			<server>tomcat</server>
+			<path>massageBoard</path>
    		</configuration>                
 	</plugin>
 	</plugins>

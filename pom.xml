@@ -62,6 +62,7 @@
     </dependencies>
     <build>
         <finalName>massageBoard</finalName>
+	<plugins>
 	<plugin>
    		<groupId>org.apache.tomcat.maven</groupId>
    		<artifactId>tomcat7-maven-plugin</artifactId>
@@ -70,6 +71,6 @@
       			<url>http://localhost:8080/massageBoard</url>
    		</configuration>                
 	</plugin>
-
+	</plugins>
     </build>
 </project>
